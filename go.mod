@@ -53,7 +53,7 @@ require (
 	go.etcd.io/bbolt v1.3.5
 	go.opentelemetry.io/otel v1.24.0
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
-	golang.org/x/oauth2 v0.21.0
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/sync v0.7.0
 	golang.org/x/text v0.16.0
 	google.golang.org/api v0.183.0
@@ -195,6 +195,4 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 )
 
-go 1.22.0
-
-toolchain go1.22.4
+go 1.23.0
